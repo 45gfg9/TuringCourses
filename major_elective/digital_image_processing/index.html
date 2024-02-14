@@ -417,7 +417,7 @@
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../major_basic/ai_basic/">
-        人工智能基础
+        人工智能引论
       </a>
 </li>
 <li class="md-nav__item">
@@ -731,6 +731,11 @@
     分数构成
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_7">
+    学习建议
+  </a>
+</li>
 </ul>
 </nav>
 </li>
@@ -970,6 +975,11 @@
     分数构成
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_7">
+    学习建议
+  </a>
+</li>
 </ul>
 </nav>
 </div>
@@ -981,7 +991,7 @@
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
 </a>
 <div class="admonition warning">
-<p class="admonition-title">1676263464</p>
+<p class="admonition-title">1707753290</p>
 </div>
 <h1 id="_1">图像信息处理<a class="headerlink" href="#_1" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h1>
 <div class="badges">
@@ -996,6 +1006,16 @@
 <li>图像存储和传输</li>
 <li>图像增强和恢复</li>
 <li>图像识别和理解</li>
+<li>简单介绍深度学习</li>
+</ul>
+<p><span>21<span class="heti-spacing"> </span></span>级和<span class="heti-skip"><span class="heti-spacing"> </span>22<span class="heti-spacing"> </span></span>级均有<span class="heti-skip"><span class="heti-spacing"> </span>6<span class="heti-spacing"> </span></span>次实验，均以<span class="heti-skip"><span class="heti-spacing"> </span>BMP<span class="heti-spacing"> </span></span>格式的图像为操作对象，具体为：</p>
+<ul>
+<li>实现<span class="heti-skip"><span class="heti-spacing"> </span>BMP<span class="heti-spacing"> </span></span>图像的读入与输出、将彩色图转为灰度图、<span>RGB<span class="heti-spacing"> </span></span>空间和<span class="heti-skip"><span class="heti-spacing"> </span>YUV<span class="heti-spacing"> </span></span>空间之间的转化</li>
+<li>使用大津算法对图像二值化、对二值图像进行形态学操作</li>
+<li>使用对数操作增强图像可视性、实现直方图均衡化</li>
+<li>对图像进行平移、旋转、缩放等几何变换</li>
+<li>实现图像均值滤波、用拉普拉斯变换实现图像增强</li>
+<li>暴力实现双边滤波</li>
 </ul>
 <h2 id="_3">任课教师<a class="headerlink" href="#_3" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
 <p>本门课程只由宋明黎一位老师开设。</p>
@@ -1013,6 +1033,9 @@
 <h2 id="_6">分数构成<a class="headerlink" href="#_6" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
 <p>卷面（60%）<span>+<span class="heti-spacing"> </span></span>作业（40%）</p>
 <p>一学期大概会有<span class="heti-skip"><span class="heti-spacing"> </span>5~7<span class="heti-spacing"> </span></span>次作业，要使用<span class="heti-skip"><span class="heti-spacing"> </span>C/C++<span class="heti-spacing"> </span></span>编程，不可调用<span class="heti-skip"><span class="heti-spacing"> </span>OpenCV<span class="heti-spacing"> </span></span>等图形处理库。</p>
+<h2 id="_7">学习建议<a class="headerlink" href="#_7" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
+<p>这门课还是干货挺多的，光是做作业就能学到不少，而且内容很实用，什么图像几何变换、直方图均衡化、双边滤波等等都可能在平时用到（甚至有同学在同学期的普物实验二做了相关内容）。<span>21<span class="heti-spacing"> </span></span>级和<span class="heti-skip"><span class="heti-spacing"> </span>22<span class="heti-spacing"> </span></span>级都是六次实验，第一次实验是用来熟悉<span class="heti-skip"><span class="heti-spacing"> </span>BMP<span class="heti-spacing"> </span></span>格式的，主要就是<span class="heti-skip"><span class="heti-spacing"> </span>BMP<span class="heti-spacing"> </span></span>的格式定义、图像读入和输出比较耗时间。后面的实验都是在第一次实验的基础上做的，就只需要按照<span class="heti-skip"><span class="heti-spacing"> </span>PPT<span class="heti-spacing"> </span></span>给的算法进行操作就行了，不会很复杂。做实验是很好的熟悉和理解这些算法的机会，写报告或者写代码都能帮助你掌握这些算法，建议大家要认真做而不是把实验原理随便抄一抄、代码糊弄糊弄就完事了。比较为人诟病的一点是期末大部分题目都是文科默写题，而且题量还不少。因此如果想要拿到一个理想的成绩，需要达到对于大部分知识点都能把内容表述出来的程度，这是需要投入比较多的时间在复习上面的。如果只是不想被绩杀，拿一个看得过去的分数，可以在大致过完<span class="heti-skip"><span class="heti-spacing"> </span>PPT<span class="heti-spacing"> </span></span>之后面向历年卷复习，<span>98<span class="heti-spacing"> </span></span>上面的资源非常齐全并且每年题目的重点都差不多，把历年卷全部过一遍大概就能拿一个还过得去的分数了。以及老师最后一节课会有复习课，会划一些重点，还是很有必要听的。</p>
+<p>需要注意的是老师给分非常求是，不会调分。实验给分还可以，但是期末大题没写出来就是没写出来，一个算法没记住可能就是<span class="heti-skip"><span class="heti-spacing"> </span>10<span class="heti-spacing"> </span></span>分没了。总之，这门课速成难度较大，需要投入一定的时间，不能大意。</p>
 <hr/>
 <style>
 #footer-wrapper {
@@ -1042,7 +1065,7 @@
 }
 </style>
 <div id="footer-wrapper">
-<p><span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg></span> 2023-02-13  <span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></span> Contributors <span class="contributors"><a href="https://github.com/keroid" target="_blank" title="keroid"><img alt="keroid" src="https://avatars.githubusercontent.com/u/88258852"/></a><a href="https://github.com/floatshadow" target="_blank" title="floatshadow"><img alt="floatshadow" src="https://avatars.githubusercontent.com/u/50550436"/></a></span></p>
+<p><span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg></span> 2024-02-13  <span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></span> Contributors <span class="contributors"><a href="https://github.com/Fairicle" target="_blank" title="Fairicle"><img alt="Fairicle" src="https://avatars.githubusercontent.com/u/126493285"/></a><a href="https://github.com/keroid" target="_blank" title="keroid"><img alt="keroid" src="https://avatars.githubusercontent.com/u/88258852"/></a><a href="https://github.com/floatshadow" target="_blank" title="floatshadow"><img alt="floatshadow" src="https://avatars.githubusercontent.com/u/50550436"/></a></span></p>
 </div>
 <style>
 .md-content .admonition:first-of-type {
